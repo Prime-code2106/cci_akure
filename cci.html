@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebration Church International | Alagbaka, Akure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans bg-[#FFFFFF] text-[#3B3B3B]">
+    <!-- Navigation -->
+    <nav class="bg-[#FFFFFF] shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img src="event_image/images.png" alt="CCI Logo" class="cci-logo">
+                    </div>
+                </div>
+                <div class="hidden md:flex md:items-center md:space-x-8" data-aos="">
+                    <a href="#home" class="nav-link active text-[#3B3B3B] px-3 py-2 text-sm font-medium">Home</a>
+                    <a href="#greeting" class="nav-link text-[#3B3B3B] hover:text-[#9A8174] px-3 py-2 text-sm font-medium">Greeting</a>
+                    <a href="#about" class="nav-link text-[#3B3B3B] hover:text-[#9A8174] px-3 py-2 text-sm font-medium">About</a>
+                    <a href="#services" class="nav-link text-[#3B3B3B] hover:text-[#9A8174] px-3 py-2 text-sm font-medium">Services</a>
+                    <a href="#" id="gallery-nav" class="nav-link text-[#3B3B3B] hover:text-[#9A8174] px-3 py-2 text-sm font-medium">Gallery</a>
+                    <a href="#events" class="nav-link text-[#3B3B3B] hover:text-[#9A8174] px-3 py-2 text-sm font-medium">Events</a>
+                    <a href="#contact" class="nav-link text-[#3B3B3B] hover:text-[#9A8174] px-3 py-2 text-sm font-medium">Contact</a>
+                    <a href="#donate" class="bg-[#9A8174] hover:bg-[#3B3B3B] text-[#FFFFFF] px-4 py-2 rounded-md text-sm font-medium btn">Donate</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" id="menu-toggle" class="inline-flex items-center justify-center p-2 rounded-md text-[#3B3B3B] hover:text-[#9A8174] hover:bg-[#FFFFFF] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#9A8174]">
+                        <span class="sr-only">Toggle main menu</span>
+                        <i id="open-icon" class="fas fa-bars menu-icon"></i>
+                        <i id="close-icon" class="fas fa-times menu-icon hidden"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="hidden md:hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-[#3B3B3B] bg-[#FFFFFF]">Home</a>
+                <a href="#greeting" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-[#3B3B3B] hover:text-[#9A8174] hover:bg-[#FFFFFF]">Greeting</a>
+                <a href="#about" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-[#3B3B3B] hover:text-[#9A8174] hover:bg-[#FFFFFF]">About</a>
+                <a href="#services" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-[#3B3B3B] hover:text-[#9A8174] hover:bg-[#FFFFFF]">Services</a>
+                <a href="#" id="gallery-nav-mobile" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-[#3B3B3B] hover:text-[#9A8174] hover:bg-[#FFFFFF]">Gallery</a>
+                <a href="#events" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-[#3B3B3B] hover:text-[#9A8174] hover:bg-[#FFFFFF]">Events</a>
+                <a href="#contact" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-[#3B3B3B] hover:text-[#9A8174] hover:bg-[#FFFFFF]">Contact</a>
+                <a href="#donate" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-[#FFFFFF] bg-[#9A8174] hover:bg-[#3B3B3B]">Donate</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="hero flex items-center justify-center text-center text-[#FFFFFF]">
+                <div class="max-w-4xl px-4">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">Welcome to Celebration Church International</h1>
+                    <p class="text-lg md:text-xl mb-8">Join us at CCI Akure to celebrate endless life in Christ Jesus. Experience transformative worship, in-depth teaching, and a vibrant community at our Alagbaka branch.</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#services" class="bg-[#9A8174] hover:bg-[#3B3B3B] text-[#FFFFFF] px-6 py-3 rounded-lg font-medium btn">Join a Service</a>
+                        <a href="#greeting" class="bg-transparent hover:bg-[#FFFFFF] hover:text-[#3B3B3B] text-[#FFFFFF] border border-[#FFFFFF] px-6 py-3 rounded-lg font-medium btn">Meet Our Pastor</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Greeting Section -->
+        <section id="greeting" class="section py-16 bg-[#FFFFFF]">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-[#3B3B3B] mb-4">A Warm Welcome from Our Resident Pastor</h2>
+                    <p class="text-lg text-[#3B3B3B] max-w-3xl mx-auto">Hear from Pastor Lanre Korede, who leads CCI Akure with passion and vision.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="event_image/The month theme being “KINDLE”,Pastor @lanre_kolade taught us today on “PRAYER AS FELLOWSHIP”He expla...erent as Christians is that we have a God who we can relate to. • Prayer in Christianity consists of the  possibility.jpg" alt="Pastor Lanre Korede" class="pastor-img">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-[#3B3B3B] mb-4">Welcome to CCI Akure!</h3>
+                        <p class="text-[#3B3B3B] mb-4">"Greetings in the name of our Lord Jesus Christ! I’m thrilled to welcome you to Celebration Church International, Akure. Here at CCI, we’re all about celebrating endless life in Christ through vibrant worship, life-changing teaching, and a community that feels like family. Join us every Sunday at 9:00 AM at Celebr8 Center, Alagbaka GRA, and experience the joy of faith in action. Whether you’re new or returning, there’s a place for you here!"</p>
+                        <p class="text-[#3B3B3B] mb-6 font-semibold">- Pastor Lanre Korede</p>
+                        <a href="#services" class="bg-[#9A8174] hover:bg-[#3B3B3B] text-[#FFFFFF] px-6 py-3 rounded-lg font-medium btn">Join Us This Sunday</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section py-16 bg-[#FFFFFF]">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-[#3B3B3B] mb-4">About CCI Akure</h2>
+                    <p class="text-lg text-[#3B3B3B] max-w-3xl mx-auto">A vibrant branch of Celebration Church International, dedicated to spreading the gospel and nurturing spiritual growth in Akure.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-[#3B3B3B] mb-4">Our Mission</h3>
+                        <p class="text-[#3B3B3B] mb-4">Celebration Church International (CCI) is a Pentecostal teaching ministry founded by Apostle Emmanuel Iren, our lead pastor, in 2012. Our vision is to see all people celebrate endless life in Christ Jesus through in-depth teaching, powerful worship, and community outreach. The Akure branch, inaugurated on July 16, 2025, is led by our resident pastor, Pastor Lanre Korede, who is committed to empowering believers to live out their faith boldly.</p>
+                        <p class="text-[#3B3B3B]">Located at Celebr8 Center, Quarter 54, Alagbaka GRA, Akure, we are part of a global ministry with over 30 campuses worldwide, guided by the dynamic preaching and teaching of Apostle Iren.</p>
+                    </div>
+                    <div class="rounded-xl overflow-hidden shadow-lg">
+                        <img src="event_image/DJI_0733-1024x768.jpg" alt="CCI Akure Worship" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section py-16 bg-[#FFFFFF]">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-[#3B3B3B] mb-4">Our Services</h2>
+                    <p class="text-lg text-[#3B3B3B] max-w-3xl mx-auto">Join us for worship, teaching, and fellowship at CCI Akure.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-[#FFFFFF] p-6 rounded-xl shadow-md text-center">
+                        <i class="fas fa-pray text-[#9A8174] text-3xl mb-4"></i>
+                        <h3 class="text-xl font-bold text-[#3B3B3B] mb-3">Sunday Worship</h3>
+                        <p class="text-[#3B3B3B]">Join us every Sunday at 9:00 AM for a powerful worship experience filled with prayer, spiritual songs, and in-depth teaching.</p>
+                    </div>
+                    <div class="bg-[#FFFFFF] p-6 rounded-xl shadow-md text-center">
+                        <i class="fas fa-bible text-[#9A8174] text-3xl mb-4"></i>
+                        <h3 class="text-xl font-bold text-[#3B3B3B] mb-3">Midweek Service</h3>
+                        <p class="text-[#3B3B3B]">Our midweek service on Wednesdays at 6:00 PM offers an opportunity for deeper Bible study and prayer.</p>
+                    </div>
+                    <div class="bg-[#FFFFFF] p-6 rounded-xl shadow-md text-center">
+                        <i class="fas fa-users text-[#9A8174] text-3xl mb-4"></i>
+                        <h3 class="text-xl font-bold text-[#3B3B3B] mb-3">Community Groups</h3>
+                        <p class="text-[#3B3B3B]">Connect with others through our MAP groups for fellowship, discipleship, and community outreach.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-12">
+                    <button id="gallery-toggle" class="bg-[#9A8174] hover:bg-[#3B3B3B] text-[#FFFFFF] px-6 py-3 rounded-lg font-medium btn">View Sunday Programs Gallery</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sunday Programs Gallery Section -->
+        <section id="gallery" class="section py-16 bg-[#FFFFFF] hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-[#3B3B3B] mb-4">Sunday Programs at CCI Akure</h2>
+                    <p class="text-lg text-[#3B3B3B] max-w-3xl mx-auto">Experience the vibrant worship, teaching, and fellowship that define our Sunday at CCI Akure.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                    <img src="image/500658971_17871843486361702_3287446692541827149_n.jpg" alt="Sunday Worship" class="gallery-img" loading="lazy">
+                    <img src="image/500661510_17871843594361702_2518041340583284665_n.jpg" alt="Youth Worship" class="gallery-img" loading="lazy">
+                    <img src="image/500741701_17871843546361702_1490447848928077303_n.jpg" alt="Sermon" class="gallery-img" loading="lazy">
+                    <img src="image/500745579_17871843537361702_2553642398352413045_n.jpg" alt="Praise Session" class="gallery-img" loading="lazy">
+                    <img src="image/500764210_17871843729361702_5999729641025641573_n.jpg" alt="Prayer Session" class="gallery-img" loading="lazy">
+                    <img src="image/500792418_17871843711361702_1034221047678820565_n.jpg" alt="Choir Performance" class="gallery-img" loading="lazy">
+                    <img src="image/500985397_17871843477361702_6171682264151039278_n.jpg" alt="Congregation" class="gallery-img" loading="lazy">
+                    <img src="image/501202386_17871843495361702_6400031383261517389_n.jpg" alt="Fellowship" class="gallery-img" loading="lazy">
+                    <img src="image/Today, pastor @lanre_kolade taught us on–PRAYER AS A BUILDER.1 Thessalonians 5-19He started by saying that God’s desire for us as believers is growth.Jude1-20,1Corithians 14-14-16.He explained tongue as a divine (2).jpg" alt="Sunday School" class="gallery-img" loading="lazy">
+                    <img src="image/Today, pastor @lanre_kolade taught us on–PRAYER AS A BUILDER.1 Thessalonians 5-19He started by saying that God’s desire for us as believers is growth.Jude1-20,1Corithians 14-14-16.He explained tongue as a divine (3).jpg" alt="Children's Service" class="gallery-img" loading="lazy">
+                    <img src="image/Today, pastor @lanre_kolade taught us on–PRAYER AS A BUILDER.1 Thessalonians 5-19He started by saying that God’s desire for us as believers is growth.Jude1-20,1Corithians 14-14-16.He explained tongue as a divine (4).jpg" alt="Testimony Time" class="gallery-img" loading="lazy">
+                    <img src="image/Today, pastor @lanre_kolade taught us on–PRAYER AS A BUILDER.1 Thessalonians 5-19He started by saying that God’s desire for us as believers is growth.Jude1-20,1Corithians 14-14-16.He explained tongue as a divine lan.jpg" alt="Worship Team" class="gallery-img" loading="lazy">
+                    <img src="image/r.jpeg" alt="Prayer Group" class="gallery-img" loading="lazy">
+                    <img src="image/gff.jpeg" alt="Altar Call" class="gallery-img" loading="lazy">
+                    <img src="image/500465082_17871843534361702_2169436479598775879_n.jpg" alt="Kids Ministry" class="gallery-img" loading="lazy">
+                    <img src="image/500462320_17871843615361702_4779015353026561032_n.jpg" alt="Welcome Team" class="gallery-img" loading="lazy">
+                    <img src="image/500764210_17871843729361702_5999729641025641573_n.jpg" alt="Offering Time" class="gallery-img" loading="lazy">
+                    <img src="image/500247975_17871843576361702_3044708813781788984_n.jpg" alt="Music Team" class="gallery-img" loading="lazy">
+                    <img src="image/500211320_17871843996361702_2871049297118384820_n.jpg" alt="Communion" class="gallery-img" loading="lazy">
+                    <img src="image/500137216_17871843468361702_1260836045689907608_n.jpg" alt="Baptism" class="gallery-img" loading="lazy">
+                    <img src="image/500063277_17871843567361702_4357069235920215825_n.jpg" alt="Closing Prayer" class="gallery-img" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="section py-16 bg-[#FFFFFF]">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-[#3B3B3B] mb-4">Upcoming Events</h2>
+                    <p class="text-lg text-[#3B3B3B] max-w-3xl mx-auto">Stay connected with our vibrant community through our events and programs.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-[#FFFFFF] rounded-lg overflow-hidden shadow-md">
+                        <img src="event_image/DJI_0733-1024x768.jpg" alt="Reboot Camp" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <span class="text-sm text-[#9A8174] font-medium">Annual Event</span>
+                            <h3 class="text-xl font-bold text-[#3B3B3B] mt-2 mb-3">Reboot Camp 2025</h3>
+                            <p class="text-[#3B3B3B]">Join us for our annual Reboot Camp, a transformative spiritual retreat. Date: TBD. Register now to reserve your spot!</p>
+                            <a href="#" class="inline-block text-[#9A8174] font-medium mt-4 hover:text-[#3B3B3B]">Learn More →</a>
+                        </div>
+                    </div>
+                    <div class="bg-[#FFFFFF] rounded-lg overflow-hidden shadow-md">
+                        <img src="event_image/download.jpg" alt="Young and Free" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <span class="text-sm text-[#9A8174] font-medium">Youth Event</span>
+                            <h3 class="text-xl font-bold text-[#3B3B3B] mt-2 mb-3">Young and Free Conference</h3>
+                            <p class="text-[#3B3B3B]">A relationship conference for young adults to inspire and equip for family life. Date: TBD.</p>
+                            <a href="#" class="inline-block text-[#9A8174] font-medium mt-4 hover:text-[#3B3B3B]">Learn More →</a>
+                        </div>
+                    </div>
+                    <div class="bg-[#FFFFFF] rounded-lg overflow-hidden shadow-md">
+                        <img src="event_image/jjj.jpg" alt="Outreach" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <span class="text-sm text-[#9A8174] font-medium">Community</span>
+                            <h3 class="text-xl font-bold text-[#3B3B3B] mt-2 mb-3">Community Outreach</h3>
+                            <p class="text-[#3B3B3B]">Join our monthly outreach programs to serve and impact the Akure community. Next event: TBD.</p>
+                            <a href="#" class="inline-block text-[#9A8174] font-medium mt-4 hover:text-[#3B3B3B]">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section py-16 bg-[#FFFFFF]">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-[#3B3B3B] mb-4">Get in Touch</h2>
+                    <p class="text-lg text-[#3B3B3B] max-w-3xl mx-auto">We'd love to hear from you. Contact us for more information or to get involved.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-2xl font-bold text-[#3B3B3B] mb-4">Contact Information</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-center">
+                                <i class="fas fa-map-marker-alt text-[#9A8174] mr-3"></i>
+                                <span class="text-[#3B3B3B]">Celebr8 Center, Quarter 54, Alagbaka GRA, Akure, Ondo State, Nigeria</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-phone-alt text-[#9A8174] mr-3"></i>
+                                <span class="text-[#3B3B3B]">+234 803 123 4567</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-envelope text-[#9A8174] mr-3"></i>
+                                <span class="text-[#3B3B3B]">akure@ccing.org</span>
+                            </li>
+                        </ul>
+                        <div class="mt-6 flex space-x-4">
+                            <a href="#" class="text-[#9A8174] hover:text-[#3B3B3B]"><i class="fab fa-facebook-f text-2xl"></i></a>
+                            <a href="#" class="text-[#9A8174] hover:text-[#3B3B3B]"><i class="fab fa-twitter text-2xl"></i></a>
+                            <a href="#" class="text-[#9A8174] hover:text-[#3B3B3B]"><i class="fab fa-instagram text-2xl"></i></a>
+                            <a href="#" class="text-[#9A8174] hover:text-[#3B3B3B]"><i class="fab fa-youtube text-2xl"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-[#3B3B3B] mb-4">Send Us a Message</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label for="name" class="block text-sm font-medium text-[#3B3B3B] mb-1">Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-[#3B3B3B] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9A8174]" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-sm font-medium text-[#3B3B3B] mb-1">Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-[#3B3B3B] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9A8174]" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="block text-sm font-medium text-[#3B3B3B] mb-1">Message</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-[#3B3B3B] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9A8174]" required></textarea>
+                            </div>
+                            <button type="submit" class="bg-[#9A8174] hover:bg-[#3B3B3B] text-[#FFFFFF] px-6 py-3 rounded-lg font-medium btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Donate Section -->
+        <section id="donate" class="section py-16 bg-[#FFFFFF]">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-[#3B3B3B] mb-4">Support Our Mission</h2>
+                    <p class="text-lg text-[#3B3B3B] max-w-3xl mx-auto">Your generous contributions help us spread the gospel and serve the Akure community.</p>
+                </div>
+                <div class="bg-[#FFFFFF] rounded-xl shadow-md p-8">
+                    <h3 class="text-2xl font-bold text-[#3B3B3B] mb-6">Make a Donation</h3>
+                    <p class="text-[#3B3B3B] mb-6">Your support enables us to continue our outreach programs, maintain our facilities, and expand our ministry. Donate via bank transfer or online payment.</p>
+                    <div class="mb-6">
+                        <h4 class="text-lg font-medium text-[#3B3B3B] mb-2">Bank Details</h4>
+                        <p class="text-[#3B3B3B]">Account Name: Celebration Church International Akure</p>
+                        <p class="text-[#3B3B3B]">Bank: First Bank of Nigeria</p>
+                        <p class="text-[#3B3B3B]">Account Number: 1234567890</p>
+                    </div>
+                    <a href="#" class="bg-[#9A8174] hover:bg-[#3B3B3B] text-[#FFFFFF] px-6 py-3 rounded-lg font-medium btn">Donate Online</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#050206] text-[#FFFFFF] py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <img src="event_image/images.png" alt="CCI Logo" class="footer-logo mb-4">
+                    <p class="text-[#FFFFFF]">Celebr8 Center, Quarter 54, Alagbaka GRA, Akure, Ondo State, Nigeria</p>
+                    <p class="text-[#FFFFFF] mt-2">A ministry dedicated to celebrating endless life in Christ Jesus.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4 text-[#FFFFFF]">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-[#FFFFFF] hover:text-[#9A8174]">Home</a></li>
+                        <li><a href="#greeting" class="text-[#FFFFFF] hover:text-[#9A8174]">Greeting</a></li>
+                        <li><a href="#about" class="text-[#FFFFFF] hover:text-[#9A8174]">About</a></li>
+                        <li><a href="#services" class="text-[#FFFFFF] hover:text-[#9A8174]">Services</a></li>
+                        <li><a href="#" id="gallery-footer" class="text-[#FFFFFF] hover:text-[#9A8174]">Gallery</a></li>
+                        <li><a href="#events" class="text-[#FFFFFF] hover:text-[#9A8174]">Events</a></li>
+                        <li><a href="#contact" class="text-[#FFFFFF] hover:text-[#9A8174]">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4 text-[#FFFFFF]">Connect With Us</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope text-[#9A8174] mr-2"></i>
+                            <span class="text-[#FFFFFF]">akure@ccing.org</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt text-[#9A8174] mr-2"></i>
+                            <span class="text-[#FFFFFF]">+234 803 123 4567</span>
+                        </li>
+                    </ul>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="http://x.com/cci_akure?t=9txy0g4CxS1bjm2LnolijDA&s=09" class="text-[#9A8174] hover:text-[#FFFFFF]"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/cci_akure_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-[#9A8174] hover:text-[#FFFFFF]"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@CelebrationChurchGlobal" class="text-[#9A8174] hover:text-[#FFFFFF]"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-[#3B3B3B] mt-8 pt-6 text-center text-[#FFFFFF]">
+                <p>© 2025 Celebration Church International, Akure. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js">
+
+     </script>
+
+    <script>
+        // Toggle mobile menu
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const openIcon = document.getElementById('open-icon');
+        const closeIcon = document.getElementById('close-icon');
+
+        function closeMobileMenu() {
+            mobileMenu.classList.add('hidden');
+            openIcon.classList.remove('hidden');
+            closeIcon.classList.add('hidden');
+        }
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            openIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when any link is clicked
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', closeMobileMenu);
+        });
+
+        // Toggle gallery visibility
+        const gallerySection = document.getElementById('gallery');
+        const galleryToggle = document.getElementById('gallery-toggle');
+        const galleryNav = document.getElementById('gallery-nav');
+        const galleryNavMobile = document.getElementById('gallery-nav-mobile');
+        const galleryFooter = document.getElementById('gallery-footer');
+
+        function toggleGallery(e) {
+            e.preventDefault();
+            gallerySection.classList.toggle('hidden');
+            if (!gallerySection.classList.contains('hidden')) {
+                gallerySection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        galleryToggle.addEventListener('click', toggleGallery);
+        galleryNav.addEventListener('click', toggleGallery);
+        galleryNavMobile.addEventListener('click', toggleGallery);
+        galleryFooter.addEventListener('click', toggleGallery);
+
+        // Update active navigation link on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('.section:not(#gallery)');
+            const navLinks = document.querySelectorAll('.nav-link');
+            let currentSection = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (window.pageYOffset >= sectionTop) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active', 'text-[#3B3B3B]');
+                link.classList.add('text-[#3B3B3B]', 'hover:text-[#9A8174]');
+                if (link.getAttribute('href').substring(1) === currentSection) {
+                    link.classList.add('active', 'text-[#3B3B3B]');
+                    link.classList.remove('text-[#3B3B3B]', 'hover:text-[#9A8174]');
+                }
+            });
+
+            // Special handling for gallery nav link
+            if (!gallerySection.classList.contains('hidden')) {
+                const galleryNavLink = document.getElementById('gallery-nav');
+                const galleryNavMobileLink = document.getElementById('gallery-nav-mobile');
+                navLinks.forEach(link => link.classList.remove('active', 'text-[#3B3B3B]'));
+                galleryNavLink.classList.add('active', 'text-[#3B3B3B]');
+                galleryNavLink.classList.remove('text-[#3B3B3B]', 'hover:text-[#9A8174]');
+                galleryNavMobileLink.classList.add('active', 'text-[#3B3B3B]');
+                galleryNavMobileLink.classList.remove('text-[#3B3B3B]', 'hover:text-[#9A8174]');
+            }
+        });
+    </script>
+</body>
+</html>

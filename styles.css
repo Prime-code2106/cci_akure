@@ -1,0 +1,77 @@
+/* Hero section background */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(236, 232, 232, 0.7)), url('event_image/DJI_0733-1024x768.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+/* Hover effect for buttons */
+.btn {
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation link hover effect */
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #8a7163;
+    transition: width 0.3s;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+.nav-link.active::after {
+    width: 100%;
+}
+
+/* Logo styling */
+.cci-logo {
+    height: 40px;
+    width: auto;
+}
+.footer-logo {
+    height: 50px;
+    width: auto;
+}
+
+/* Gallery image styles */
+.gallery-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+}
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Pastor image styles */
+.pastor-img {
+    width: 400px;
+    
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hamburger menu icon transition */
+.menu-icon {
+    transition: opacity 0.3s ease;
+}
+.menu-icon.hidden {
+    opacity: 0;
+}
